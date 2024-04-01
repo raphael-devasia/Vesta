@@ -122,12 +122,12 @@
   background-color: orange;
   color: black;
 }
-.explore-img {
+/* .explore-img {
   transition: all 0.2s ease-in-out;
 }
 .explore-img:hover {
   transform: scale(1.1);
-}
+} */
 .explore-row {
   padding-bottom: 60px;
 }
