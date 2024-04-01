@@ -389,6 +389,12 @@ p {
   .searchbar {
     margin-top: 15px;
   }
+  .navbar li:not(:last-child) {
+    border-right: none;
+  }
+  .navbar li {
+    padding-left: 0;
+  }
 }
 @media (min-width: 768px) {
   .hide-on-lg {
@@ -411,15 +417,3 @@ p {
 .offcanvas-body li {
   border: none;
 }
-@media (max-width: 768px) {
-  .navbar li:not(:last-child) {
-    border-right: none;
-  }
-  .navbar li {
-    padding-left: 0;
-  }
-}
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: grey;
-} */
